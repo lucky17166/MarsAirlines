@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.Airlines.qa.testCases.WelcomePageTest">
+        <methods>
+          <include name="PromoCodeSendkeys"/>
+          <include name="setUP"/>
+          <include name="ReturningTextTest"/>
+          <include name="DepartingTextTest"/>
+          <include name="PromoCodeTest"/>
+          <include name="BookATicketmsgTest"/>
+          <include name="RetrntDDTest"/>
+          <include name="WelcomemsgTest"/>
+          <include name="tearDown"/>
+          <include name="marsLogoTest"/>
+          <include name="DeptDDTest"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.Airlines.qa.testCases.WelcomePageTest -->
+      <class name="com.Airlines.qa.testCases.SearchPageTest">
+        <methods>
+          <include name="SearchTextTest"/>
+          <include name="NotfoundText"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.Airlines.qa.testCases.SearchPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

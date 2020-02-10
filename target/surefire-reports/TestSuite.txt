@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 2, Errors: 0, Skipped: 34, Time elapsed: 0.359 s <<< FAILURE! - in TestSuite
+setUP(com.Airlines.qa.testCases.WelcomePageTest)  Time elapsed: 0.225 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users⁩/pavani.jagu⁩/⁨Documents⁩/⁨MarsAirlines⁩/chromedriver⁩
+	at com.Airlines.qa.testCases.WelcomePageTest.setUP(WelcomePageTest.java:20)
+
+setUP(com.Airlines.qa.testCases.SearchPageTest)  Time elapsed: 0.233 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users⁩/pavani.jagu⁩/⁨Documents⁩/⁨MarsAirlines⁩/chromedriver⁩
+	at com.Airlines.qa.testCases.SearchPageTest.setUP(SearchPageTest.java:19)
+

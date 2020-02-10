@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.Airlines.qa.testCases.WelcomePageTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 0.359 s <<< FAILURE! - in com.Airlines.qa.testCases.WelcomePageTest
+setUP(com.Airlines.qa.testCases.WelcomePageTest)  Time elapsed: 0.24 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Applications/chromedriver⁩
+	at com.Airlines.qa.testCases.WelcomePageTest.setUP(WelcomePageTest.java:19)
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MarsAirline">
+ 
+ <test name="MarsAirline">
+ <classes>
+ <class name="com.Airlines.qa.base.TestBase" /> 
+ <class name="com.Airlines.qa.testCases.WelcomePageTest.java" /> 
+ <class name="com.Airlines.qa.testCases.SearchPageTest.java" /> 
+ </classes> 
+ </test> 
+ 
+</suite> <!-- Suite -->
